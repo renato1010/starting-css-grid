@@ -1,0 +1,24 @@
+.container {
+  display: grid;
+  /* width: 600px;
+  height: 600px; */
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-gap: 10px;
+  /* justify-items: center;
+  align-items: center; */
+}
+
+.item {
+  background: rgba(55, 143, 63, 0.603);
+  padding: 10px;
+}
+
+.item1 {
+  justify-self: end;
+  align-self: end;
+}
+
+.item4 {
+  grid-column: 1/4;
+}
